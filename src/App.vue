@@ -1,9 +1,6 @@
 <template>
   <div id="app">   
     <Navbar />
-    <vue-page-transition name="fade-in-down">
-    <router-view />
-    </vue-page-transition>
   </div>
 </template>
 
