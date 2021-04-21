@@ -6,7 +6,7 @@
         class="nav-link"
         v-for="(genre, key) in genres"
         :key="key"
-        ><input type="text" :value=genre></b-nav-item
+        >{{ genre }}</b-nav-item
       >
     </b-navbar-nav>
   </b-navbar>
