@@ -18,10 +18,13 @@ import axios from "axios";
 import "../sass/navbar.scss";
 export default {
   name: "Navbar",
+  props: {
+  },
   data() {
     return {
       genres: [],
       movies: []
+
     };
   },
   methods: {
