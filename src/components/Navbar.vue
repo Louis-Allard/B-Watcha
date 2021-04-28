@@ -18,13 +18,10 @@ import axios from "axios";
 import "../sass/navbar.scss";
 export default {
   name: "Navbar",
-  props: {
-  },
+  movies: Array,
   data() {
     return {
       genres: [],
-      movies: []
-
     };
   },
   methods: {
@@ -51,7 +48,7 @@ export default {
           for (let i = 0; i < movies.length; i++) {
             this.movies.push(movies[i]["original_title"]);
           }
-          console.log("movies : ", this.movies);
+          console.log("Movies : ", this.movies);
         });
     }
   },

@@ -7,20 +7,19 @@
 
 <script>
 import "../sass/global.scss";
+import { movies } from "./Navbar";
 export default {
   name: "Main",
   data() {
-    return {
-    };
+    return {};
   },
   methods: {
-      test(){
-        const text = localStorage.getItem;
-        console.log("Response: " + text)
-        }      
-      },
+    test() {
+      console.log("Response Main: ", movies);
+    },
+  },
   mounted() {
-      this.test();
+    this.test();
   },
 };
 </script>
