@@ -6,42 +6,36 @@
     color: white;
 }
 
-.nav-item {
+.nav-item, .nav-link {
     list-style-type: none;
     display: inline list-item;
-    text-align: center;
-}
-
-a{
     text-align: center;
     text-decoration: none;
     background-color: transparent;
     border: 0px solid green;
     outline: none;
-    color :green;  
+    color: green;
     text-align: center;
     font-size: 2vh;
     padding: 0.3rem 0.3rem;
-    margin : auto;
-  }
-
-a:focus{
-    background-color: green;
-    border: 2px solid green;
-    color: white;
-    outline:none;
-    box-shadow: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-}
-
-
-a:hover {
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid green;
-    outline:none;
-    box-shadow: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
+    margin: auto;
+    &:focus {
+        background-color: green;
+        border: 2px solid green;
+        color: white;
+        outline: none;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: green;
+        border: 2px solid green;
+        color: white;
+        outline: none;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+    }
 }

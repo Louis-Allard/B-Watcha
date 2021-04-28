@@ -3,7 +3,7 @@
     <b-navbar-brand>B-Watcha</b-navbar-brand>
     <b-navbar-nav>
       <b-nav-item
-        class="nav-link"
+        class="nav-item"
         v-for="(genre, key) in genres"
         :key="key"
         @click="discover(genre.id)"
